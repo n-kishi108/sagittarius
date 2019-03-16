@@ -1,0 +1,102 @@
+/****************
+モジュール
+****************/
+.transition02s{transition: .2s;}
+
+/****************
+ヘッダ関連
+****************/
+header {
+	position: relative;
+	top: 0;
+	font-size: 0;
+	width: 100vw;
+	height: 48px;
+	line-height: 48px;
+	background: #FFB74D;
+}
+header h1.title {
+	line-height: 48px;
+	/* padding: 0 10px; */
+	width: 90vw;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+}
+nav.navigation {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	margin-bottom: 25px;
+	height: 48px;
+	width: 100vw;
+	background: #FFB74D;
+}
+nav.navigation ul {
+	height: 48px;
+	list-style: none;
+	font-size: inherit;
+}
+
+nav.navigation ul li{
+	position: relative;
+	/* width: 120px; */
+	height: 48px;
+	line-height: 48px;
+	padding: 0 !important;
+	/* display: inline-block; */
+	float: left;
+}
+
+nav.navigation ul li a{
+	list-style: none;
+	font-size: 24px;
+	color: WHITE;
+	display: block;
+	position: absolute;
+	/* padding: 0 20px; */
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 48px;
+	/* width: 120px; */
+	height: 48px;
+	width: 100%;
+	/* transition: .2s; */
+}
+
+nav.navigation ul li a:hover{
+	background: #FFA726;
+	height: 48px;
+	border-bottom: solid 5px #8D6E63;
+}
+
+nav.navigation ul li:hover > a{
+	text-decoration: none;
+	color: #8D6E63;
+}
+/****************
+メイン関連
+****************/
+body {
+	/* background: #FFF9C4; */
+	overflow-x: hidden;
+}
+main {
+	position: relative;
+	height: 3000px;
+}
+h2.menu_list {
+	width: 90vw;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: solid 1px #aaa;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+/****************
+フッタ関連
+****************/
