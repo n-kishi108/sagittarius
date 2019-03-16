@@ -1,6 +1,6 @@
 		</main>
 		<footer>
-			ここがフッタです。
+			<span>©️さぎたりうす2019</span>
 		</footer>
 	</body>
 </html>

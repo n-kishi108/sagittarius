@@ -8,7 +8,8 @@
 		public function index() {
 			$data['menu'] = $this->menulist->getMenu('001');
 			$this->load->view('template/header');
-			$this->load->view('checkin/index', $data);
+			$this->load->view('index/index');
+			// $this->load->view('checkin/index', $data);
 			$this->load->view('template/footer');
 		}
 	}
